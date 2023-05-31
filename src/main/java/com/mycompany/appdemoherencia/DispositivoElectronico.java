@@ -18,6 +18,10 @@ public abstract class DispositivoElectronico {
         nombre="laptop";
     }
     
+    public String toString(){
+        return "Fabricante:"+fabricante+"  #Serie:"+numeroSerie+"  marca:"+marca+"  nombre:"+nombre+"\n";
+    }
+    
     abstract void agregarComponente(DispositivoElectronicoDeConsumo componente);
     
     abstract void quitarComponente();

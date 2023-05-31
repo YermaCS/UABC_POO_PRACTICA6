@@ -4,6 +4,14 @@ public class Computadora extends DispositivoElectronicoDeConsumo{
     private MicroProcesador cpu;
     private long ramMB;
     
+    public Computadora(){
+        cpu = new MicroProcesador();
+    }
+    
+    public String toString(){
+        return getCpu().toString()+"ram: "+ramMB;
+    }
+    
     public void setCpu(MicroProcesador cpu){
         this.cpu=cpu;
     }

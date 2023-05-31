@@ -31,4 +31,8 @@ public class Pantalla extends ComponenteElectronico{
     void quitarComponente() {
         
     }
+    
+    public String toString(){
+        return "resX: "+resolucionX+"  resY:"+resolucionX+"\n";
+    }
 }

@@ -4,7 +4,11 @@ public class Television extends DispositivoElectronicoDeConsumo{
    private Pantalla pantalla;
    
     public Television(){
-         
+         pantalla = new Pantalla();
+    }
+    
+    public String toString(){
+        return "pantalla: "+pantalla+" "+getPantalla().toString()+"\n";
     }
     
     public void setPantalla(Pantalla pantalla){

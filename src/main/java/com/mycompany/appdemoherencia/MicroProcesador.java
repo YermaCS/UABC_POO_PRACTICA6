@@ -8,6 +8,10 @@ public class MicroProcesador extends ComponenteElectronico{
         
     }
     
+    public String toString(){
+        return "cacheRam: "+cacheRam+"  velocidad Hz:"+velocidadHz+"\n";
+    }
+    
     public void setCacheRam(int cacheRam){
         this.cacheRam = cacheRam;
     }

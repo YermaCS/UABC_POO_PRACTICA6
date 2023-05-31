@@ -11,6 +11,10 @@ public class Sensor extends ComponenteElectronico{
         valor = 1;
     }
     
+    public String toString(){
+        return "tipo: "+tipo+"  unidad de Medida:"+unidadDeMedida+"  Valor:"+valor+"\n";
+    }
+    
     public String getTipo(){
         return tipo;
     }
